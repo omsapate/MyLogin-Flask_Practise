@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+    <h1 align='center'>Welcome to Home Page</h1>
+
+    <div id="homeDiv">
+        <a href="{{ url_for('login') }}">
+            <button>Login</button>
+        </a>
+        
+        
+        <a href="{{ url_for('register') }}">
+            <button>Register</button>
+        </a>
+    </div>
+
+{% endblock %}
