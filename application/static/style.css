@@ -4,6 +4,10 @@ h1{
     color: red;
 }
 
+a{
+    text-decoration: none;
+}
+
 #homeDiv{
     border: 1px solid #000;
     text-align: center;
@@ -13,7 +17,7 @@ h1{
 }
 
 #homeDiv button{
-    background-color: #4661d8; /* Green */
+    background-color: #4661d8;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -22,4 +26,48 @@ h1{
     display: inline-block;
     font-size: 16px;
     margin: 10px;
+    
+}
+
+#homeDiv button:hover{
+    border-radius: 0.5em;
+}
+
+#Login , #Register{
+    /* display: inline; */
+    text-align: center;
+    padding: 16px;
+}
+
+label{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    display: block;
+    
+}
+form{
+    border: 3px solid #f1f1f1;
+    padding: 8px;
+    
+}
+
+input[type=email], input[type=password], input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+ input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
 }
